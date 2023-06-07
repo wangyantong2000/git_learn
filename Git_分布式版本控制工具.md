@@ -300,7 +300,7 @@ git reset commitID --hard
 
 **不能删除当前分支，只能删除其他分支**
 
-- `git branch -d 分支名` 删除分支时，需要做各种检查
+- `git branch -d 分支名` 删除分支时，需要做各种检查  *没有merge不能删除 用D*
 - `git branch -D 分支名` 不做任何检查，强制删除
 - E.g.
   ![删除分支](Git_分布式版本控制工具.assets/删除分支.png)
